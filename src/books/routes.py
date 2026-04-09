@@ -1,5 +1,5 @@
 from fastapi.exceptions import HTTPException
-from fastapi import FastAPI, status
+from fastapi import  status
 from typing import List
 from .schemes import Book, BookUpdate
 from .book_data import books
